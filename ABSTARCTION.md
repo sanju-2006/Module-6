@@ -8,6 +8,8 @@ To write a Python program to define the abstract base class named `Polygon` and 
 
 ---
 
+
+
 ### ALGORITHM
 
 1. **Start the Program.**
