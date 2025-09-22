@@ -1,11 +1,12 @@
 # Exp.No:26  
-## Method Overriding
+## overloading
 
 ---
 
 ### AIM  
-To write a Python program to create a Parent class `Bird` and inherit two child classes `Sparrow` and `Ostrich` from the `Bird` class with the same method `flight()`. Create an object for each class and call the methods of the class which will print the name of the bird that is flying.
+write a python program to perform addition of two complex number using binary '+' operator overloading
 
+class name : complex
 ---
 
 ### ALGORITHM
@@ -34,10 +35,29 @@ To write a Python program to create a Parent class `Bird` and inherit two child 
 ### PROGRAM
 
 ```
+class complex:
+    def __init__(self, real, imag):
+        self.real = real
+        self.imag = imag
 
+    def __add__(self, other):
+        return complex(self.real + other.real, self.imag + other.imag)
+
+    def __str__(self):
+        return f"({self.real}, {self.imag})"
+
+
+Ob1 = complex(1, 2)
+Ob2 = complex(2, 3)
+result = Ob1 + Ob2
+print(result)
 ```
 
 ### OUTPUT
 
+(3, 5)
 
 ### RESULT
+
+<img width="280" height="142" alt="image" src="https://github.com/user-attachments/assets/4b7ed0b6-ad78-44aa-9b4f-e3d704136953" />
+
