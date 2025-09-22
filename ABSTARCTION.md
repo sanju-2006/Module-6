@@ -34,11 +34,54 @@ To write a Python program to define the abstract base class named `Polygon` and 
 ### PROGRAM
 
 ```
+from abc import ABC  ,abstractmethod
+  
+class Polygon(ABC):   
+    @abstractmethod
+    def sides(self):   
+      pass  
+  
+class Triangle(Polygon):   
+  
+     
+   def sides(self):   
+      print("Triangle has 3 sides")   
+  
+class Pentagon(Polygon):   
+    def sides(self):
+        print("Pentagon has 5 sides")
+class Hexagon(Polygon):   
+    def sides(self):
+        print("Hexagon has 6 sides")
+class square(Polygon):   
+  
+   def sides(self):   
+      print("I have 4 sides")   
+  
+# Driver code   
+t = Triangle()   
+t.sides() 
+  
+s = square()   
+s.sides() 
+  
+p = Pentagon()   
+p.sides()
 
+k = Hexagon()   
+k.sides() 
 
 ```
 
 ### OUTPUT
 
+Triangle has 3 sides
+I have 4 sides
+Pentagon has 5 sides
+Hexagon has 6 sides
+
 
 ### RESULT
+
+
+<img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/f1d7a3a1-54f7-46fa-b772-ee41cb9eab17" />
