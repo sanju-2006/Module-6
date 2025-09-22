@@ -1,10 +1,12 @@
 # Exp.No:30  
-## COUNTER CLASS
+## Polymorphism
 
 ---
 
 ### AIM  
-To write a Python program to create a `Counter` class that can increment the value of a counter.
+created two classes Ferrari and BMW. They have the same instance method names fuel_type() and max_speed(). However, we have not linked both the classes nor have we used inheritance. Pack two different objects into a tuple and iterate through it using a car variable. 
+
+
 
 ---
 
@@ -26,10 +28,37 @@ To write a Python program to create a `Counter` class that can increment the val
 ### PROGRAM
 
 ```
+class Ferrari:
+    def fuel_type(self):
+        print("Petrol")
 
+    def max_speed(self):
+        print("Max speed 350")
+
+class BMW:
+    def fuel_type(self):
+        print("Diesel")
+
+    def max_speed(self):
+        print("Max speed is 240")
+
+ferrari = Ferrari()
+bmw = BMW()
+
+# iterate objects of same type
+for car in (ferrari, bmw):
+    car.fuel_type()
+    car.max_speed()
 ```
 
 ### OUTPUT
 
+Petrol
+Max speed 350
+Diesel
+Max speed is 240
+
 
 ### RESULT
+
+<img width="458" height="213" alt="image" src="https://github.com/user-attachments/assets/24afcbaf-7c22-43ed-9a35-839cff5f689a" />
