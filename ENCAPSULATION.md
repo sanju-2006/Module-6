@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program to create a class `Student` with the private members `name` and `age`, and add getter and setter methods to initialize and modify the `age` variable.
+Create a class Employee with public method show to display the details of the employee.
 
 ---
 
@@ -27,13 +27,34 @@ To write a Python program to create a class `Student` with the private members `
 
 ```
 
+class Employee:
+    # constructor
+    def __init__(self, name, salary):
+        # public data members
+        self.name = name
+        self.salary = salary
 
+    # public instance methods
+    def show(self):
+        print(f"Name:  {self.name} Salary: {self.salary}")
+# creating object of a class
+emp = Employee('Jessa', 10000)
+
+# accessing public data members
+print("Name: ", emp.name, 'Salary:', emp.salary)
+emp.show()
 
 ```
 
 ### OUTPUT
 
+Name:  Jessa Salary: 10000
+Name:  Jessa Salary: 10000
+
 
 ### RESULT
+
+<img width="699" height="181" alt="image" src="https://github.com/user-attachments/assets/15d6ddc3-23f9-4cca-91c8-8a63af04bd48" />
+
 
 
