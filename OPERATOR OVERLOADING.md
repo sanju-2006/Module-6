@@ -55,10 +55,10 @@ print(Ob3)
 
 ### OUTPUT
 
-(-1, -1)
+<img width="349" height="142" alt="image" src="https://github.com/user-attachments/assets/22cbce50-35a8-4a23-9edb-e3c6bcf5a568" />
 
 ### RESULT
 
-
-<img width="349" height="142" alt="image" src="https://github.com/user-attachments/assets/22cbce50-35a8-4a23-9edb-e3c6bcf5a568" />
+python program to perform subtraction of two complex number using binary '+' operator overloading is successfully verified
+ 
 
