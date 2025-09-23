@@ -75,13 +75,11 @@ k.sides()
 
 ### OUTPUT
 
-Triangle has 3 sides
-I have 4 sides
-Pentagon has 5 sides
-Hexagon has 6 sides
+<img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/f1d7a3a1-54f7-46fa-b772-ee41cb9eab17" />
+
 
 
 ### RESULT
 
+Python program to define the abstract base class named `Polygon` and also define the abstract method. This base class is inherited by various subclasses. Implement the abstract method in each subclass is successfully verified
 
-<img width="530" height="217" alt="image" src="https://github.com/user-attachments/assets/f1d7a3a1-54f7-46fa-b772-ee41cb9eab17" />
