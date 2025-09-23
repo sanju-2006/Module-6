@@ -55,9 +55,8 @@ print(result)
 
 ### OUTPUT
 
-(3, 5)
+<img width="280" height="142" alt="image" src="https://github.com/user-attachments/assets/4b7ed0b6-ad78-44aa-9b4f-e3d704136953" />
 
 ### RESULT
 
-<img width="280" height="142" alt="image" src="https://github.com/user-attachments/assets/4b7ed0b6-ad78-44aa-9b4f-e3d704136953" />
-
+python program to perform addition of two complex number using binary '+' operator overloading is successfully verified
