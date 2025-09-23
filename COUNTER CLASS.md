@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-created two classes Ferrari and BMW. They have the same instance method names fuel_type() and max_speed(). However, we have not linked both the classes nor have we used inheritance. Pack two different objects into a tuple and iterate through it using a car variable. 
+Python program to create two classes Ferrari and BMW. They have the same instance method names fuel_type() and max_speed(). However, we have not linked both the classes nor have we used inheritance. Pack two different objects into a tuple and iterate through it using a car variable. 
 
 
 
@@ -53,12 +53,9 @@ for car in (ferrari, bmw):
 
 ### OUTPUT
 
-Petrol
-Max speed 350
-Diesel
-Max speed is 240
+<img width="458" height="213" alt="image" src="https://github.com/user-attachments/assets/24afcbaf-7c22-43ed-9a35-839cff5f689a" />
 
 
 ### RESULT
 
-<img width="458" height="213" alt="image" src="https://github.com/user-attachments/assets/24afcbaf-7c22-43ed-9a35-839cff5f689a" />
+Python program to create two classes Ferrari and BMW is successfully verified
