@@ -48,13 +48,13 @@ emp.show()
 
 ### OUTPUT
 
-Name:  Jessa Salary: 10000
-Name:  Jessa Salary: 10000
+<img width="699" height="181" alt="image" src="https://github.com/user-attachments/assets/15d6ddc3-23f9-4cca-91c8-8a63af04bd48" />
+
 
 
 ### RESULT
 
-<img width="699" height="181" alt="image" src="https://github.com/user-attachments/assets/15d6ddc3-23f9-4cca-91c8-8a63af04bd48" />
+Create a class Employee with public method show to display the details of the employee is successfully verified
 
 
 
